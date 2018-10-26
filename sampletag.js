@@ -42,7 +42,7 @@ const something = 'something';
 //cooper s (TBD) for now just have 3 seperate articles, but need a factory solution
 
                 var art1Div = document.createElement("div");  
-        /*        document.getElementById("ad").appendChild(art1Div);
+                document.getElementById("ad").appendChild(art1Div);
                 var article1 = document.createElement('a');
                 var art1Text = document.createTextNode(ok[0].title);
                 article1.setAttribute('href', ok[0].url);
@@ -66,7 +66,7 @@ const something = 'something';
                 article3.setAttribute('href', ok[2].url);
                 article3.setAttribute('target', '_blank');
                 article3.appendChild(art3Text);
-                art3Div.appendChild(article3); */
+                art3Div.appendChild(article3); 
 
             }//end if
         }///end onstatechange;
